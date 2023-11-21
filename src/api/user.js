@@ -142,3 +142,4 @@ export async function deleteUser(Id, authenticationKey) {
   const deleteUserResult = await response.json();
   return deleteUserResult;
 }
+console.log(API_URL);
