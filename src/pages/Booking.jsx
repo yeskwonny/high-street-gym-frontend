@@ -91,7 +91,7 @@ function Booking() {
           });
         }),
       );
-      // console.log(selectedList);
+      console.log(typeof classTime);
       setClassList(selectedList);
     });
   }, [bookingClass]);

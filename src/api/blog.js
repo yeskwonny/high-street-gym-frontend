@@ -1,5 +1,4 @@
 import { API_URL } from "./api";
-const staticBlogs = [{}, {}];
 
 //Read blog
 export async function getAllBlogs(authenticationKey) {
