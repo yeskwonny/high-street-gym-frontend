@@ -121,7 +121,7 @@ function BookingList() {
           </div>
         );
       })}
-      <p className="text-center text-[#ff9c82]">{status}</p>
+      {/* <p className="text-center text-[#ff9c82]">{status}</p> */}
 
       <Nav />
     </div>
