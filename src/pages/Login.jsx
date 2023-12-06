@@ -59,7 +59,7 @@ function Login() {
       >
         <label className="grid items-center tracking-wider">Email</label>
         <input
-          className=" text-slate-900"
+          className=" bg-slate-100 text-slate-900"
           type="email"
           id="email"
           name="email"
@@ -68,7 +68,7 @@ function Login() {
         ></input>
         <label className="grid items-center tracking-wider">Password</label>
         <input
-          className=" text-slate-900 "
+          className=" bg-slate-100 text-slate-900 "
           type="password"
           id="password"
           name="password"

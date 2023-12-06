@@ -23,7 +23,7 @@ export function RestrictedRoute({ allowedRoles = [], children }) {
         Please contact to help desk.
       </p>
       <Button
-        className="w-30 btn btn-outline mt-4 bg-[#ff9c82] "
+        className="w-30 btn btn-outline mt-4 bg-[#ff9c82]  text-black hover:bg-slate-50 "
         onClick={() => navigate(-1)}
       >
         Take me back

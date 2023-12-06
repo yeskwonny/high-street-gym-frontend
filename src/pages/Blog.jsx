@@ -103,7 +103,7 @@ function Blog() {
           <div>
             <button
               className={
-                "btn btn-xs m-2 rounded-md border-transparent bg-[#ff9c82] font-light tracking-wider"
+                "btn btn-xs m-2 rounded-md border-transparent bg-[#ff9c82] font-light tracking-wider text-black hover:bg-slate-50"
               }
             >
               Upload
@@ -112,7 +112,7 @@ function Blog() {
           <button
             onClick={handleOnCancle}
             className={
-              "btn btn-xs m-2 rounded-md border-transparent bg-[#ff9c82] font-light tracking-wider"
+              "btn btn-xs m-2 rounded-md border-transparent bg-[#ff9c82]  font-light tracking-wider text-black hover:bg-slate-50"
             }
           >
             CLEAR
@@ -131,7 +131,7 @@ function Blog() {
             <div
               key={blog.id}
               tabIndex={0}
-              className="collapse collapse-arrow h-3/6 w-11/12  border border-base-300 bg-base-200"
+              className="collapse-arrow collapse h-3/6 w-11/12  border border-base-300 bg-base-200"
             >
               <div className=" font-small collapse-title flex justify-between  text-[12px]">
                 {blog.title}

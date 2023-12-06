@@ -111,7 +111,7 @@ function BookingList() {
               <button
                 value={list.bookingID}
                 className={
-                  "btn btn-xs m-2 bg-[#ff9c82] font-light tracking-wider"
+                  "btn btn-xs m-2 bg-[#ff9c82] font-light tracking-wider text-black hover:bg-slate-50"
                 }
                 onClick={(e) => handleonCancel(e)}
               >

@@ -65,7 +65,7 @@ function Timetable() {
     navigate(`/booking/${id}`, { state: { selectedClass } });
   }
 
-  return weeks&&user ? (
+  return weeks && user ? (
     <div className=" relative h-screen overflow-y-auto bg-slate-950">
       <Header>Timetable</Header>
       <form className="  m-auto flex h-4/6 w-3/4 flex-col gap-3 overflow-y-auto">
@@ -88,7 +88,7 @@ function Timetable() {
                       <button
                         value={result.activity_id}
                         className={
-                          "btn btn-xs m-2 bg-[#ff9c82] font-light tracking-wider"
+                          "btn btn-xs m-2 bg-[#ff9c82] font-light tracking-wider text-black hover:bg-slate-50"
                         }
                         onClick={() => handleOnClick(day, result.activity_id)}
                       >

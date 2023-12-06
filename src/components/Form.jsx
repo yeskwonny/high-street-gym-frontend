@@ -211,13 +211,13 @@ function Form({
       <span className=" text-sm text-[#ff9c82]">{status}</span>
       <div className="mt-4 flex items-center justify-around gap-2">
         <div>
-          <button className="btn btn-outline w-40 bg-[#ff9c82]" type="submit">
+          <button className="btn btn-outline w-40 bg-[#ff9c82]  text-black hover:bg-slate-50" type="submit">
             {isUpdate ? "Update" : "Submit"}
           </button>
         </div>
         <button
           onClick={() => navigate("/")}
-          className={isUpdate ? "btn btn-outline w-20 bg-[#ff9c82] " : "hidden"}
+          className={isUpdate ? "btn btn-outline w-20 bg-[#ff9c82]  text-black hover:bg-slate-50 " : "hidden"}
         >
           {isUpdate ? "Back" : "Login"}
         </button>

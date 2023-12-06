@@ -221,7 +221,7 @@ function Booking() {
         src="/signup_img1.jpg"
         alt="image for booking"
         loading="lazy"
-        style={{ width: "100vw", height: "30%", objectFit: "cover" }}
+        className="w-100vw h-1/3 object-cover sm:mx-auto sm:h-1/2 sm:w-[70vw]"
       />
       <div className="form-control mb-3  items-center tracking-wider text-neutral-100">
         <div className=" flex-col items-center">
@@ -297,7 +297,9 @@ function Booking() {
         <span className="text-[0.8rem] text-[#ff9c82]">{status}</span>
         <button
           type="submit"
-          className={"w-35 btn btn-outline mt-2 bg-[#ff9c82]"}
+          className={
+            "w-35 btn btn-outline mt-2 bg-[#ff9c82] text-black hover:text-slate-50"
+          }
           onClick={handleOnBooking}
         >
           BOOK
