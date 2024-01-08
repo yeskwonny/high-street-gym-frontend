@@ -18,11 +18,11 @@
 
 ## Technologies Used
 
--React
--React Router DOM
--DaisyUI
--vite
--tailwindcss
+- React
+- React Router DOM
+- DaisyUI
+- vite
+- tailwindcss
   
 
 ## Features
